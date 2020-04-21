@@ -1,0 +1,57 @@
+/* Element Selector */
+body{
+    background-color: #333;
+    /* special font from google */
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    /* default size is 16px */
+    font-size: 18px;
+    line-height: 1.3em;
+
+}
+
+/* . is for classes */
+.primary-heading{
+    color: lightseagreen;
+}
+
+/* # is for selecting id's */
+#welcome {
+    background-color: #f4f4f4;
+}
+
+/* Multiple selectors */
+#welcome, #about {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: maroon 1px dotted;
+}
+#about{
+    color: mediumvioletred;
+    font-family: Tangerine;
+}
+
+#welcome p span{
+    font-style: italic;
+}
+
+#about p span{
+    font-weight: bold;
+    color: mintcream;
+}
+
+
+/* www.color-hex.com */
+#color-hex a {
+/* Color Name */
+color: red;
+}
+
+h1{
+    /* RGB */
+    color: rgb(255.255.255);
+}
+
+h1{
+    /* hex */
+    color: #f4f4f4;
+}
