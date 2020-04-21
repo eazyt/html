@@ -1,6 +1,19 @@
+/* body reset */
+/* * is a selector for everything on the page */
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing  for padding not to affect the width */
+    box-sizing: border-box;
+}
+/* utility class for clearing floats */
+.clr{
+    clear: both;
+}
+
 /* Element Selector */
 body{
-    background-color: #333;
+    background-color: #ccc;
     /* special font from google */
     font-family: Roboto, Arial, Helvetica, sans-serif;
     /* default size is 16px */
@@ -55,3 +68,83 @@ h1{
     /* hex */
     color: #f4f4f4;
 }
+/* ###############More CSS#################### */
+#box-1{
+    background-color: rosybrown;
+    border: skyblue solid 3px;
+    border-radius: 10%;
+}
+#box-2{
+    background: snow;
+    color: teal;
+    border-bottom: dotted 4px red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#box-3 {
+    width: 800px;
+    height:300px;
+    color: yellow;
+    background-image: url('../images/sunrise.jpg');
+    background-position:  top;
+    background-repeat: no-repeat;
+    background-position: -100px -100px;
+    background-size: cover;
+    /* background: url('../images/sunrise.jpg') no-repeat center center/cover; */
+}
+
+#box-4{
+    background: url('../images/ele.png') no-repeat center center;
+    color: thistle;
+    background-attachment: fixed;
+}
+.box{
+    background: #f4f4f4;
+    border: #777 2px solid;
+    width: 500px;
+    /* padding on all sides */
+    padding: 20px;
+
+    /* padding per side */
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    /* order of list matters bottom overules the top */
+    /* padding shorthand = top, right, bottom,left */
+    padding: 10px 20px 10px 20px;
+    /* padding shorthand if its rectangle like = top/bottom left/right */
+    padding: 10px 20px;
+
+    /* same rules for margin   */
+    /* margin on all sides */
+    margin: 20px;
+}
+/* ###############################floats and align */
+.container{
+    max-width: 960px;
+    margin: 30px auto;
+}
+.boxx{
+    background: #f4f4f4;
+    border: #333333 1px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.boxx p {
+    /* text align */
+    /* default its aligned to the left */
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+}
+#box-7{
+    float: left;
+    width: 50%;
+}
+#box-8{
+    float: right;
+    width: 50%;
+}
+/* ################### Link&Button##################### */
