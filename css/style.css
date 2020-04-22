@@ -148,3 +148,100 @@ h1{
     width: 50%;
 }
 /* ################### Link&Button##################### */
+
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+a:hover{
+    color: coral;
+    font-size: 30px;
+}
+
+a:visited{
+    color: green;
+}
+a:active{
+    color: red;
+}
+.btn{
+    /* facebook blue */
+    background: #4c6ca0;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: f4f4f4;
+    background: #446190;
+}
+/* ######################Menu styling################### */
+.side-menu{
+    list-style: none;
+    border: 1px pink solid;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+}
+.side-menu li {
+    font-size: 18px;
+    line-height: 2.4em;
+    border-bottom: dotted 1px blue;
+}
+
+/* psuedo selector */
+.side-menu li:last-child{
+    border: none;
+}
+.side-menu li a{
+    color: #333;
+    text-decoration: none;
+}
+.side-menu li a:hover{
+    color: coral;
+}
+/* ##########################nav menu####################### */
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #4c6ca0;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.navbar li a:hover{
+    background-color: #446190;
+    color: #f4f4f4;
+}
+/* ###############################inline block############### */
+
+
+/* you cannot do margin auto on an inline element, it needs to be  block */
+img{
+    display: block;
+    margin:auto;
+}
+/* by default divs are displayed as block */
+/* also inline can not work with width needs to be inline-block */
+.boqs{
+    width:32%;
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 15px;
+}

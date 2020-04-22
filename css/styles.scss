@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$site-font: 'Raleway', sans-serif;
+
+$light-gray: rgb(240, 240, 240);
+$dark-gray: rgb(80, 80, 80);
+$white: white;
+
+
+.site-footer {
+    background-color: #f10e0e;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+  
+    .footer-social-links {
+      text-align: center;
+  
+      ul.social-links-list {
+        li {
+          margin-right: 25px;
+          display: inline-block;
+  
+          a {
+            color: $dark-gray;
+  
+            &.instagram:hover {
+              color: #e95950;
+            }
+            &.facebook:hover {
+              color: rgb(66, 103, 178);
+            }
+            &.twitter:hover {
+              color: rgb(56, 161, 243);
+            }
+            &.google:hover {
+              color: rgb(221, 75, 57);
+            }
+            &.linkedin:hover {
+              color: rgb(0, 119, 181);
+            }
+          }
+        }
+      }
+    }
+  }
+  
