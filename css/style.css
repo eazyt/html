@@ -245,3 +245,48 @@ img{
     padding: 20px;
     margin-bottom: 15px;
 }
+/* #############################Positioning###################### */
+.div-box{
+    width: 100px;
+    height: 100px;
+}
+
+/* everything has a position of static */
+/* with relative you can move the boxes/divs around the page where you want them */
+/* z-index bring a box up or back a layer...the higher is on top */
+
+#boqx-1{
+    position: relative;
+    top: 50px;
+    left: 50px; 
+    background: red;
+}
+#boqx-2{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background: orange;
+}
+#boqx-3{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    background: blue;
+}
+#boqx-4{
+    /* fixed stays in position even when scrolling the page */
+    /* to see the effect of it z-index make the body to have like larger px sizes width & height */
+    position: fixed;
+    background: yellow;
+}
+#boqx-5{
+    /* sticky is good for menu/nav when scrolling */
+    position: sticky;
+    background: green;
+}
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #333;
+}
